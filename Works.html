@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Quincy|玩意儿</title>
+	<meta name="up" content="true">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<link rel="stylesheet" type="text/css" href="css/style_common.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.69142.js"></script>
+	<script src="js.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	    Modernizr.load({
+	    test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+	    yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','js/jquery.hoverfold.js'],
+	    nope: 'css/fallback.css',
+	    callback : function( url, result, key ) {
+	         if( url === 'js/jquery.hoverfold.js' ) {
+	         $( '#grid' ).hoverfold();
+	         }
+	    }
+	});        
+	</script>
+	<link rel="stylesheet" type='text/css' href="style.css" />
+	<style>
+		.form-wrapper input {
+		width: 255px;
+		height: 30px; 
+		}
+	</style>
+</head>
+<body>
+<div id="wrap">
+	<div id="guid">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="logo" height="40px" /></a>
+			</div>
+			<div class="fram" id="body">
+				<form class="form-wrapper cf">
+	        		<input type="text" placeholder="不要搜索..." required>
+	        		<button type="submit" onclick="alert('说了不要搜索啦！这个功能还未完成……')">Search</button>
+				</form> 
+			</div>
+			<div id="menu2" class="menu">
+				<ul>
+				<li><a href="index.html">主页</a></li>
+				<li><a href="log.html">日志</a></li>
+				</ul>
+			</div>
+	</div>
+	<ul>
+		<li class="bar" id="up"><i class="iconfont">&#xe601;</i></li>
+	</ul>
+
+	<div id="content" style="height:1000px; width:800px;">
+		<h1 class="bighead">玩意儿</h1>
+		<h3 id="zhuangbi">——————————————</h3><br /><br />
+
+		<div id="grid" class="main">
+
+			 <div class="view"> 
+			    <div class="view-back">
+			        <span >1315<br />蹭饭<br />地图<br />1</span> <a href="images/b.png" target="_blank">→</a>
+			    </div>
+			<img src="images/bs.png">
+			</div>
+
+			<div class="view"> 
+			    <div class="view-back">
+			        <span >1315<br />蹭饭<br />地图<br />2</span> <a href="images/p.png" target="_blank">→</a>
+			    </div>
+			<img src="images/ps.png">
+			</div>
+
+		</div>    
+
+
+	</div>
+	<div id="wxm"><img src="images/weixin.png" height="100px" /><div class="warrow"></div></div>
+	<div id="qqm"><img src="images/qq.jpg" height="100px" /><div class="qarrow"></div></div>
+	<div id="footer">		
+		<div id="bot">
+			<ul>
+				<li class="bot" id="wb"><a href="http://weibo.com/qiuqingyun98" target="_blank"><i class="iconfont">&#xe604;</i></a></li>
+				<li class="bot" id="zh"><a href="http://zhihu.com/people/chou-qing-yun-51" target="_blank"><i class="iconfont">&#xe605;</i></a></li>
+				<li class="bot" id="wx"><a href="images/weixin.png" target="_blank"><i class="iconfont">&#xe602;</i></a></li>
+				<li class="bot" id="qq"><a href="images/qq.jpg" target="_blank"><i class="iconfont">&#xe603;</i></a></li>
+				<li class="bot" id="yx"><a href="mailto:qiuqingyun98@outlook.com" title="qiuqingyun98@outlook.com" target="_blank"><i class="iconfont">&#xe606;</i></a></li>
+			</ul>
+		</div>
+		<div id="footerword"><p>Designed by Qiu Qingyun. All Rights Reserved.</p></div>
+	</div>
+</div>
+</body>
+</html>
