@@ -27,7 +27,7 @@ position: relative;
 background-color: #ecf0f1;
 border-radius:20px;
 }
-#content img{border: 2px solid #C9CFD4; width: 95%;}
+#content img{border: 5px solid #C9CFD4; width: 60%;display:block;margin:auto;}
 .article{
 font-size:18px;
 border-bottom: 2px solid #6F7171;
