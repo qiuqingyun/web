@@ -1,0 +1,47 @@
+/*CSS初始化-------------------------------------------*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}  
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}  
+a{color:#2d374b;text-decoration:none}  
+a:hover{color:#cd0200;}  
+em{font-style:normal}  
+li{list-style:none}  
+img{border:0;vertical-align:middle}  
+table{border-collapse:collapse;border-spacing:0}  
+p{word-wrap:break-word} 
+/*其他 */
+body{
+background-color: #C9CFD4;
+font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+line-height:1.8;
+font-size:18px;
+color: #34495e;
+word-wrap:break-word;
+word-break: break-all;
+}
+h1{
+text-align: center;
+}
+.wrap{position: relative;}
+.container{
+width: 65%;
+padding: 50px 50px 50px 50px;
+margin: 100px auto 50px;
+position: relative;
+background-color: #ecf0f1;
+border-radius:20px;
+}
+.content{
+border-top: 2px solid gray;
+border-bottom: 2px solid gray;
+padding: 10px 20px;
+margin: 20px 0px;
+}
+.conimg img{
+width: 200px;
+margin: 10px 0px;
+}
+.conimg{
+}
+.cona{
+font-size: 30px;
+}
